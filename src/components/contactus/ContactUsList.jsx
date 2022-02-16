@@ -11,12 +11,7 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 
 
-let baseUrl = "";
-if (process.env.NODE_ENV === "development") {
-  baseUrl = "http://localhost:4000";
-} else {
-  baseUrl = "https://revolverent-backend.herokuapp.com";
-}
+import baseUrl from "../../utils/common";
 
 
 // const fetchMessages = () =>{

@@ -20,12 +20,7 @@ import ScrollablePropertyTypes from "./ScollablePropertyTypes";
 import RevolveMap from "../googlemaps/RevolveMaps";
 
 
-let baseUrl = "";
-if (process.env.NODE_ENV === "development") {
-  baseUrl = "http://localhost:4000";
-} else {
-  baseUrl = "https://revolverent-backend.herokuapp.com";
-}
+import baseUrl from "../../utils/common";
 
 const initialState = {
   offset: 0,

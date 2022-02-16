@@ -20,7 +20,7 @@ import { useHistory } from "react-router-dom";
 
 import {Divider, Typography } from '@mui/material';
 
-import baseUrl from "../../utils";
+import baseUrl from "../../utils/common";
 class ContactUs extends React.Component {
   
 
