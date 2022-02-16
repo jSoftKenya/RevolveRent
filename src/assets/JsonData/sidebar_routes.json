@@ -1,0 +1,48 @@
+[
+    {
+        "display_name": "Dashboard",
+        "route": "/",
+        "icon": "bx bx-category-alt"
+    },
+    {
+        "display_name": "Bookings",
+        "route": "/appointment",
+        "icon": "bx bx-user-pin"
+    },
+    {
+        "display_name": "Tenants",
+        "route": "/products",
+        "icon": "bx bx-package"
+    },
+    
+    {
+        "display_name": "Deposits",
+        "route": "/mpesa_pay",
+        "icon": "bx bx-cart"
+    },
+    {
+        "display_name": "Withdrawals",
+        "route": "/withdrawals",
+        "icon": "bx bx-bar-chart-alt"
+    },
+    {
+        "display_name": "Income",
+        "route": "/categories",
+        "icon": "bx bx-list-ol"
+    },
+    {
+        "display_name": "Reports",
+        "route": "/reports",
+        "icon": "bx bx-gift"
+    },
+    {
+        "display_name": "Complaints",
+        "route": "/complaints",
+        "icon": "bx bx-cog"
+    },
+    {
+        "display_name": "Settings",
+        "route": "/settings",
+        "icon": "bx bx-store-alt"
+    }
+]

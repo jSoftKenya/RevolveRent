@@ -1,0 +1,72 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #666;
+  }
+  .property_row {
+    display: flex;
+    width: 300px;
+    margin: 0px 8px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: grab;
+    height: 3 rem;
+    flex: 1;
+  }
+  
+  /* .property_row:nth-child(1n) {
+    background: var(--second-color);
+  }
+  
+  .property_row:nth-child(2n) {
+    background: var(--green-1000);
+  } */
+  
+  .tiles {
+    padding: 0px;
+    margin: 0px;
+    height: 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .property_container {
+    height: 8rem;
+    width: 1000px;
+    overflow: hidden !important;
+    overflow-x: scroll !important;
+    background-color: var(--second-color);
+    border-radius: 2rem;
+    scroll-behavior: smooth;
+    justify-self: center;
+  }
+  
+  .property_container::-webkit-scrollbar {
+    width: 8px;
+    background-color: var(--green-1000);
+  }
+  
+  /**  STYLE 11 */
+  .property_container::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background: #ddd;
+  }
+  
+  .property_container::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #999;
+  }
+  
+  .property_container::-webkit-scrollbar-thumb:hover {
+    background: #666;
+  }
+  
+  .property_container::-webkit-scrollbar-thumb:active {
+    background: #333;
+  }
+  

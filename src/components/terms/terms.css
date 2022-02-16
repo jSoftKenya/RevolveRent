@@ -1,0 +1,8 @@
+.terms_container{
+    display: flex;
+    justify-items: center;
+}
+
+.terms_button{
+   justify-self: center;
+}

@@ -1,0 +1,23 @@
+.user_card{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 250px;
+    padding: 1rem;
+ 
+}
+.photo{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: aqua;
+    object-fit: cover;
+}
+.user_info{
+    justify-content: flex-start;
+    justify-self: center;
+}
+.actions{
+    justify-items: flex-end;
+    justify-items: center;
+}

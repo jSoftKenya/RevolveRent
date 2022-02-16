@@ -1,0 +1,21 @@
+h4{
+    align-content: center;
+}
+
+.sign-up{
+    margin-top: 1rem !important;
+}
+.terms{
+    display:flex;
+    flex-direction: row !important;
+    justify-items: center;
+}
+
+.check{
+    justify-self: center;
+    text-transform: none;
+}
+
+.terms_dialog{
+    justify-self: center;
+}

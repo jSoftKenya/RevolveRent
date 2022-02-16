@@ -1,0 +1,15 @@
+.contactus{
+    padding: 2rem !important;
+    margin-top: 3rem;
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.send{
+    justify-self: flex-end;
+    align-self: end;
+    margin-top: 1rem;
+}
+

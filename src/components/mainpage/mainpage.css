@@ -1,0 +1,46 @@
+
+.jumbotron{
+    font-weight: 900;
+    background-color: var(--second-color) !important;
+    border-bottom-left-radius: 5rem !important;
+    border-bottom-right-radius: 5rem !important;
+    /* opacity: 0.7 !important; */
+    /* background-image: url(../../assets/images/9.jpg); */
+    object-fit: cover;
+    background-repeat: no-repeat;
+    /* box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.jumbotron .lead{
+    color: black !important;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.data-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: .5rem;
+}
+
+.display-4{
+  color: var(--txt-white) !important;
+}
+
+
+.search_bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: scroll;
+   
+}

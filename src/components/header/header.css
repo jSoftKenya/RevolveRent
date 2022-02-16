@@ -1,0 +1,28 @@
+nav {
+  height: 4rem !important;
+  background-color: var(--white) !important;
+  color:green;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem calc((100vw - 1000px) / 2);
+  z-index: 12;
+  position: sticky;
+  top: 0;
+}
+
+nav:hover{
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.text-link {
+  color: var(--green-500);
+  text-decoration: none;
+  transition: all 0.25s ease-in-out;
+  font-size: 1.2rem;
+}
+
+.text-link:hover {
+  text-decoration: none;
+  color: var(--green-1000);
+  font-weight: 900;
+}

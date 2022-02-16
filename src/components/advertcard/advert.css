@@ -1,0 +1,70 @@
+
+
+.advert_card {
+    /* Add shadows to create the "advert_card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s ease-in;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+}
+ 
+  /* On mouse-over, add a deeper shadow */
+.advert_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+  
+.advert-item-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.advert-image-div{
+    width: 30%;
+    height: 100%;
+}
+
+.advert_card-img-top{
+    border-radius: 10px 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+
+}
+
+.advert_card-img-top:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.info_div {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+}
+
+.advert_card-title{
+    color: #000000 !important;
+    font-weight: 500 !important;
+    font-size: 18px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price{
+    color: var(--main-color-blue)
+}
+
+.button-link{
+    font-weight: bold;
+    font-size: inherit;
+    font-size: 1rem;
+
+}
